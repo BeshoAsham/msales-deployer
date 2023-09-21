@@ -67,6 +67,8 @@ public class msalesDeployer {
             userMessage.setText(""); // Clear the text area before starting
             boolean isCustomerAppSelected = customerAppCheckBox.isSelected();
             boolean isIntegrationGatewaySelected = integrationGatewayCheckBox.isSelected();
+
+
             SwingWorker<Void, String> deployWorker = new SwingWorker<Void, String>() {
                 @Override
                 protected Void doInBackground() {
